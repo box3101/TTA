@@ -1,0 +1,148 @@
+.popup-wrap3{
+   position: fixed;
+   height: 100%;
+   top: 0;
+   left: 0;
+   width: 100%;
+   bottom: 0;
+   @include flex-center;
+   z-index: 5001;
+}
+
+.popup-type1{
+   position: relative;
+   z-index: 5001;
+
+   &-box{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      @include flex-center;
+   }
+
+   &__header{
+      opacity: 1;
+   }
+
+
+   &__close{
+      opacity: 1;
+      position: absolute;
+      top: 1.25rem;
+      right: 1.25rem;
+
+      @include media(600px){
+         top: 0.35rem;
+         right: 0.75rem;
+      }
+
+      a{
+         display: inline-block;
+         font-size: 3rem;
+      }
+   }
+
+   &__cnt{
+   position: relative;
+   max-width: 56.25rem;
+   width: 90%;
+    padding: 5rem 1.875rem;
+    text-align: center;
+    border: 0.3125rem solid #1471ac;
+    background: #fff;
+    border-radius: 0.625rem;
+    box-shadow: 0rem 0rem 0.9375rem 0rem rgba(0,0,0,0.4);
+
+      @include media(600px){
+         padding: 4rem 0.875rem;
+         padding-bottom: 1rem;
+      }
+
+      &-tit-wrap{
+         max-height: 35.4375rem;
+
+         @include media(600px){
+            overflow-y: scroll;
+            margin-bottom: 2rem;
+         }
+      }
+
+      &-tit{
+         opacity: 1;
+         font-size: 2rem;
+         font-weight: 500;
+         margin-bottom: 1.5625rem;
+      }
+      &-txt{
+         font-size: 1.325rem;
+         opacity: 1;
+         margin-bottom: 1.3875rem;
+         word-break: break-all;
+         line-height: 1.5;
+
+         @include media(600px){
+            margin-bottom: 1rem;
+            font-size: 1.125rem;
+            margin-bottom: 1.1875rem;
+         }
+      }
+      .c-red{
+         opacity: 1;
+         color: #b22222;
+         font-weight: 500;
+      }
+      .c-blue{
+         opacity: 1;
+         color: darkblue;
+      }
+   }
+
+   &__btn-wrap{
+      opacity: 1;
+      @include flex-center;
+      margin: 0 -0.625rem;
+
+      @include media(600px){
+         flex-wrap: wrap;
+      }
+   }
+   &__btn{
+      opacity: 1;
+      cursor: pointer;
+      width: 100%;
+      border: none;
+      background: #0CF;
+      color: #FFF;
+      margin: 0 0 0.3125rem;
+      padding: 0.625rem;
+      font-size: 1.125rem;
+      font-weight: 500;
+      margin: 0 0.625rem;
+      line-height: 1.5;
+      border-radius: 0.625rem;
+
+      &:hover{
+         @extend %hover-shadow;
+      }
+
+      @include media(600px){
+         margin-bottom: 1rem;
+      }
+
+      &:last-of-type{
+         @include media(600px){
+            margin-bottom: 0;
+         }
+      }
+   }
+}
+
+.popup-dim{
+   opacity: 1;
+   position: fixed;
+   z-index: 5000;
+   top: 0;
+   left: 0; right: 0; bottom: 0;
+   width: 100%;
+   background: rgba(100, 100, 100, 0.5);
+}

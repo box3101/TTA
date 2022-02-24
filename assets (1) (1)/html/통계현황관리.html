@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=10.0,user-scalable=yes" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/ui.css">
+
+    <title>ICT표준연구성과관리시스템</title>
+
+    <!-- 스크립트 -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/wow.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/main.js"></script>
+
+    <!-- includejs -->
+    <script src="../js/include.js"></script>
+
+</head>
+
+<body class="main">
+    <!-- 메인이 들어가는 부분 -->
+    <main class="main-wrap" id="system">
+        <div class="inner">
+
+            <!-- header -->
+            <header class="header flex-al-center flex-jc-bt">
+                <div class="header__logo">
+                    <img src="../img/logo.png" alt="">
+                </div>
+                <div class="header__user flex-al-center">
+                    <p class="header__user-txt">
+                        chris.mars
+                    </p>
+                    <div class="header__user-img">
+                        <img src="../img/user-img.png" alt="">
+                    </div>
+                </div>
+            </header>
+            <!-- header eee -->
+
+            <div class="contents">
+                <div class="left-menu">
+                    <p class="left-menu__tit">사이트관리</p>
+                    <ul class="left-menu__list">
+                        <li class="left-menu__item is-active">
+                            <a href="#" class="left-menu__link">팝업관리</a>
+                            <ul class="left-menu__sub-list">
+                                <li class="left-menu__sub-item">
+                                    <a href="팝업관리.html" class="left-menu__sub-link">팝업관리</a>
+                                </li>
+                                <li class="left-menu__sub-item">
+                                    <a href="팝업등록.html" class="left-menu__sub-link">팝업등록</a>
+                                </li>
+                                <li class="left-menu__sub-item">
+                                    <a href="팝업수정.html" class="left-menu__sub-link">팝업수정</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="left-menu__item is-active">
+                            <a href="#" class="left-menu__link">배너관리</a>
+                            <ul class="left-menu__sub-list">
+                                <li class="left-menu__sub-item">
+                                    <a href="배너관리.html" class="left-menu__sub-link is-active">배너관리</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="left-menu__item">
+                            <a href="#" class="left-menu__link">성과관리</a>
+                            <ul class="left-menu__sub-list">
+                                <li class="left-menu__sub-item">
+                                    <a href="성과관리.html" class="left-menu__sub-link">성과관리</a>
+                                </li>
+                                <li class="left-menu__sub-item">
+                                    <a href="성과관리(국내).html" class="left-menu__sub-link">성과관리(국내)</a>
+                                </li>
+                                <li class="left-menu__sub-item">
+                                    <a href="성과관리(국제).html" class="left-menu__sub-link">성과관리(국제)</a>
+                                </li>
+                                <li class="left-menu__sub-item">
+                                    <a href="통계현황관리.html" class="left-menu__sub-link">통계현황관리</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="left-menu__item">
+                            <a href="#" class="left-menu__link">연계관리</a>
+                            <ul class="left-menu__sub-list">
+                                <li class="left-menu__sub-item">
+                                    <a href="#" class="left-menu__sub-link">연계관리</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="left-menu__item">
+                            <a href="#" class="left-menu__link">게시물관리</a>
+                            <ul class="left-menu__sub-list">
+                                <li class="left-menu__sub-item">
+                                    <a href="공지사항등록.html" class="left-menu__sub-link">공지사항</a>
+                                </li>
+                                <li class="left-menu__sub-item">
+                                    <a href="faq관리.html" class="left-menu__sub-link">faq관리</a>
+                                </li>
+                                <li class="left-menu__sub-item">
+                                    <a href="faq등록.html" class="left-menu__sub-link">faq등록</a>
+                                </li>
+                                <li class="left-menu__sub-item">
+                                    <a href="영상자료관리.html" class="left-menu__sub-link">영상자료관리</a>
+                                </li>
+                                <li class="left-menu__sub-item">
+                                    <a href="관리자관리.html" class="left-menu__sub-link">관리자관리</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contents__right">
+                    <div class="contents__header flex-jc-bt flex-al-center">
+                        <h1 class="contents__tit">통계현황관리</h1>
+
+                        <!-- location -->
+                        <div class="contents__location">
+                            <ul>
+                                <li>
+                                    <span>
+                                        <a href="">
+                                            관리자화면</a>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <a href="">
+                                            사이트관리</a>
+                                    </span>
+                                </li>
+                                <li class="last">
+                                    <span>
+                                        <a href="">
+                                            통계현황관리</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 통계현황관리 -->
+                    <div class="section-wrap th-mid">
+                        <!-- 통계생성 -->
+                        <div class="flex-al-center flex-jc-bt" style="margin-top:2rem;">
+                            <div></div>
+                            <button type="button" class="btn-sm">+ 통계생성</button>
+                        </div>
+                        <div class="section-head">
+                            <h4 class="h4">년도</h4>
+                        </div>
+                        <div class="section-body">
+                            <table class="list-table">
+                                <thead>
+                                    <tr>
+                                        <th>NO</th>
+                                        <th>년도</th>
+                                        <th>국내(조정값) </th>
+                                        <th>국내(실제값) </th>
+                                        <th>국제(조정값) </th>
+                                        <th>국내(실제값) </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>2022</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>111</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>2021</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>211</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>2020</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>132</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>2019</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>222</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2018</td>
+                                        <td></td>
+                                        <td>99</td>
+                                        <td></td>
+                                        <td>111</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="section-head">
+                            <h4 class="h4"> 표준화기구(국내)</h4>
+                        </div>
+                        <div class="section-body">
+                            <table class="list-table">
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2">NO</th>
+                                        <th rowspan="2">년도</th>
+                                        <th colspan="2">
+                                            국립전파연구원</th>
+                                        <th colspan="2">국가기술표준원</th>
+                                        <th colspan="2">한국정보통신협회</th>
+                                        <th colspan="2">기타</th>
+                                    </tr>
+                                    <tr>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>2022</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>2021</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>2020</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>2019</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2018</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="section-head">
+                            <h4 class="h4">표준화기구(국제)</h4>
+                        </div>
+                        <div class="section-body">
+                            <table class="list-table">
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2">NO</th>
+                                        <th rowspan="2">년도</th>
+                                        <th colspan="2">ISO</th>
+                                        <th colspan="2">IEC</th>
+                                        <th colspan="2">JTC1
+                                        </th>
+                                        <th colspan="2">ITU</th>
+                                        <th colspan="2">3GPP</th>
+                                        <th colspan="2">ETSI</th>
+                                        <th colspan="2">IEEE</th>
+                                        <th colspan="2">IETF</th>
+                                        <th colspan="2">기타</th>
+                                    </tr>
+                                    <tr>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>2022</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>2021</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>2020</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>2019</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2018</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="section-head">
+                            <h4 class="h4">전문기관</h4>
+                        </div>
+                        <div class="section-body">
+                            <table class="list-table">
+                                <thead>
+                                    <tr>
+                                        <th rowspan="3">NO</th>
+                                        <th rowspan="3">년도</th>
+                                        <th colspan="4">한국연구재단</th>
+                                        <th colspan="4">한국산업기술평가관리원</th>
+                                        <th colspan="4">국토교통과학기술진흥원</th>
+                                        <th colspan="4">한국기상산업기술원</th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2">국내</th>
+                                        <th colspan="2">국제</th>
+                                        <th colspan="2">국내</th>
+                                        <th colspan="2">국제</th>
+                                        <th colspan="2">국내</th>
+                                        <th colspan="2">국제</th>
+                                        <th colspan="2">국내</th>
+                                        <th colspan="2">국제</th>
+                                    </tr>
+                                    <tr>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>2022</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>2021</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>2020</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>2019</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2018</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="section-head">
+                            <h4 class="h4">주관연구기관</h4>
+                        </div>
+                        <div class="section-body">
+                            <table class="list-table">
+                                <thead>
+                                    <tr>
+                                        <th rowspan="3">NO</th>
+                                        <th rowspan="3">년도</th>
+                                        <th colspan="4">대구경북과학기술원</th>
+                                        <th colspan="4">부국철강공업㈜</th>
+                                        <th colspan="4">
+                                            주식회사티아이랩</th>
+                                        <th colspan="4">울산과학기술원</th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2">국내</th>
+                                        <th colspan="2">국제</th>
+                                        <th colspan="2">국내</th>
+                                        <th colspan="2">국제</th>
+                                        <th colspan="2">국내</th>
+                                        <th colspan="2">국제</th>
+                                        <th colspan="2">국내</th>
+                                        <th colspan="2">국제</th>
+                                    </tr>
+                                    <tr>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>2022</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>2021</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>2020</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>2019</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2018</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="section-head">
+                            <h4 class="h4">부처</h4>
+                        </div>
+                        <div class="section-body">
+                            <table class="list-table">
+                                <thead>
+                                    <tr>
+                                        <th rowspan="3">NO</th>
+                                        <th rowspan="3">년도</th>
+                                        <th colspan="4">과학기술정보통신부</th>
+                                        <th colspan="4">산업통상자원부</th>
+                                        <th colspan="4">국토교통부</th>
+                                        <th colspan="4">기상청</th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2">국내</th>
+                                        <th colspan="2">국제</th>
+                                        <th colspan="2">국내</th>
+                                        <th colspan="2">국제</th>
+                                        <th colspan="2">국내</th>
+                                        <th colspan="2">국제</th>
+                                        <th colspan="2">국내</th>
+                                        <th colspan="2">국제</th>
+                                    </tr>
+                                    <tr>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>2022</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>2021</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>2020</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>2019</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2018</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="section-head">
+                            <h4 class="h4">국내/국제 성과
+                            </h4>
+                        </div>
+                        <div class="section-body">
+                            <table class="list-table">
+                                <thead>
+                                    <tr>
+                                        <th rowspan="3">NO</th>
+                                        <th rowspan="3">년도</th>
+                                        <th colspan="4">국내성과</th>
+                                        <th colspan="6">국제성과</th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2">신규과제</th>
+                                        <th colspan="2">표준</th>
+                                        <th colspan="2">신규과제</th>
+                                        <th colspan="2">기고서</th>
+                                        <th colspan="2">표준</th>
+                                    </tr>
+                                    <tr>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                        <th>조정값</th>
+                                        <th>실제값</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>2022</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                        <td></td>
+                                        <td>123</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>2021</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                        <td></td>
+                                        <td>201</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>2020</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                        <td></td>
+                                        <td>199</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>2019</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                        <td></td>
+                                        <td>187</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>2018</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                        <td></td>
+                                        <td>122</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                        <div class="section-footer">
+                            <div class="btn-wrap flex-jc-bt">
+                                <div></div>
+                                <button type="button" class="btn-mid">저장</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 메인이 들어가는 부분 eee -->
+
+</html>
