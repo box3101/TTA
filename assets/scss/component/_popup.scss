@@ -146,3 +146,57 @@
    width: 100%;
    background: rgba(100, 100, 100, 0.5);
 }
+
+// 20220307 팝업추가
+.main-popup{
+   opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+   &__info{
+      position: relative;
+      opacity: 1;
+      margin-right: 5px;
+      border: 1px solid #aaa;
+   }
+   &__box{
+      width: 500px;
+      height: 400px;
+      background: #fff;
+   }
+   &__footer{
+      opacity: 1;
+      height: 30px; background: #333;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+   }
+   &__right{
+      display: flex;
+      align-items: center;
+      opacity: 1;
+      margin-right: 10px;
+      .input-box{
+         display: flex;
+         opacity: 1;
+         align-items: center;
+         margin-right: 10px;
+         input{
+            opacity: 1;
+            margin-right: 5px;
+         }
+         label{
+            opacity: 1;
+            color: #fff;
+            font-size: 12px;
+         }
+      }
+   }
+   &__close{
+      opacity: 1;
+      background: #333;
+      color: #fff;
+      font-size: 13px;
+   }
+}
